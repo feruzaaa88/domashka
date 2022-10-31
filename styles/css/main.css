@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+
+body {
+  font-family: "Barlow", "Fraunces";
+}
+
+image {
+  width: 100%;
+}
+
+header {
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  padding: 20px 0;
+}
+
+.header-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 600px;
+  list-style: none;
+}
+
+.nav-link {
+  all: unset;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #83888F;
+  margin-left: 35px;
+}
+
+.nav-link:hover {
+  color: #333D4B;
+  border-bottom: 1px solid #000;
+}
+
+.hero {
+  padding: 117px 702px 117px 85px;
+  /*background-image: url(../images/img.png);*/
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #19242F;
+}
+
+.hero-info {
+  display: block;
+  width: 493px;
+}
+
+.hero-title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.hero-text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  margin: 0;
+  margin-bottom: 56px;
+}
+
+.hero-link {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  background: #66D2CF;
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 15px 31px;
+}
+
+.second-info {
+  display: block;
+}
+
+.site-back-img {
+  padding: 0;
+  padding-top: 50px;
+  padding-left: 150px;
+}
+
+.second-content {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+  margin: 20px 164px 188px 164px;
+}
+
+.sec-link {
+  text-decoration: none;
+}
+
+.second-title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #333D4B;
+  margin: 71px 30px 24px 30px;
+}
+
+.second-text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333D4B;
+  margin: 24px 30px 40px 30px;
+}
+
+.three-info {
+  margin: 0;
+  margin-bottom: 50px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.three-box {
+  display: inline-block;
+  text-align: center;
+  background-color: #282F38;
+  padding: 120px 360px 350px 360px;
+}
+
+.three-title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #FEFCF7;
+  margin: 0;
+  margin-bottom: 70px;
+}
+
+.three-text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FEFCF7;
+  opacity: 0.8;
+}
+
+.three-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.th-card {
+  display: inline-block;
+  text-align: center;
+  padding: 50px 50px 48px 50px;
+  text-decoration: none;
+  background-color: #0E8784;
+  width: 280px;
+  transform: translateY(-160px);
+}
+
+.th-card:nth-child(1) {
+  margin: 0;
+  margin-left: 100px;
+}
+
+.th-card:nth-child(3) {
+  margin: 0;
+  margin-right: 100px;
+}
+
+.card-title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #FEFCF7;
+}
+
+.card-text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FEFCF7;
+}
+
+.four-info {
+  display: block;
+  margin-top: 60px;
+}
+
+.four-box {
+  position: relative;
+}
+
+.four-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-child {
+  -moz-text-align-last: left;
+       text-align-last: left;
+  text-decoration: none;
+  padding: 42px 65px 79px 100px;
+}
+
+.card-img {
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 38px;
+  padding: 40px 0;
+}
+
+.card-4-title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  color: #333D4B;
+  margin: 0;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.card-4-text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.oval-link {
+  margin: 0;
+  margin-left: 130px;
+}
+
+.how {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  position: absolute;
+  left: 130px;
+  bottom: 80px;
+}
+
+.fours-link {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  background: #66D2CF;
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 15px 31px;
+  margin: 0;
+  margin-left: 100px;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  padding: 53px 80px;
+  background-color: #2C343E;
+  margin: 100px auto;
+}
+
+.lists {
+  display: flex;
+}
+
+.footer-list {
+  display: flex;
+  margin: 0;
+  margin-left: 103px;
+  margin-right: 380px;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.fot-l {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #FEFCF7;
+  text-decoration: none;
+  margin: 0;
+  margin-left: 33px;
+}
+
+.footer-logos {
+  margin: 0;
+  margin-left: 23px;
+}/*# sourceMappingURL=main.css.map */
