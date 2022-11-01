@@ -63,10 +63,9 @@ header {
 
 .hero {
   padding: 117px 702px 117px 85px;
-  /*background-image: url(../images/img.png);*/
+  background-image: url(../../images/backimage.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: #19242F;
 }
 
 .hero-info {
@@ -80,7 +79,7 @@ header {
   font-weight: 900;
   font-size: 72px;
   line-height: 72px;
-  color: #FEFCF7;
+  color: #fefcf7;
   margin: 0;
   margin-bottom: 32px;
 }
@@ -91,7 +90,7 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #FEFCF7;
+  color: #fefcf7;
   margin: 0;
   margin-bottom: 56px;
 }
@@ -103,8 +102,8 @@ header {
   font-size: 18px;
   line-height: 25px;
   text-align: center;
-  color: #FEFCF7;
-  background: #66D2CF;
+  color: #fefcf7;
+  background: #66d2cf;
   border-radius: 6px;
   text-decoration: none;
   padding: 15px 31px;
@@ -140,7 +139,7 @@ header {
   font-size: 24px;
   line-height: 32px;
   text-align: center;
-  color: #333D4B;
+  color: #333d4b;
   margin: 71px 30px 24px 30px;
 }
 
@@ -151,7 +150,7 @@ header {
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-  color: #333D4B;
+  color: #333d4b;
   margin: 24px 30px 40px 30px;
 }
 
@@ -165,7 +164,7 @@ header {
 .three-box {
   display: inline-block;
   text-align: center;
-  background-color: #282F38;
+  background-color: #282f38;
   padding: 120px 360px 350px 360px;
 }
 
@@ -176,7 +175,7 @@ header {
   font-size: 40px;
   line-height: 48px;
   text-align: center;
-  color: #FEFCF7;
+  color: #fefcf7;
   margin: 0;
   margin-bottom: 70px;
 }
@@ -188,7 +187,7 @@ header {
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-  color: #FEFCF7;
+  color: #fefcf7;
   opacity: 0.8;
 }
 
@@ -203,7 +202,7 @@ header {
   text-align: center;
   padding: 50px 50px 48px 50px;
   text-decoration: none;
-  background-color: #0E8784;
+  background-color: #0e8784;
   width: 280px;
   transform: translateY(-160px);
 }
@@ -225,7 +224,7 @@ header {
   font-size: 24px;
   line-height: 32px;
   text-align: center;
-  color: #FEFCF7;
+  color: #fefcf7;
 }
 
 .card-text {
@@ -235,7 +234,7 @@ header {
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-  color: #FEFCF7;
+  color: #fefcf7;
 }
 
 .four-info {
@@ -272,7 +271,7 @@ header {
   font-style: normal;
   font-weight: 800;
   font-size: 30px;
-  color: #333D4B;
+  color: #333d4b;
   margin: 0;
   margin-bottom: 50px;
   text-align: left;
@@ -284,7 +283,7 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #333D4B;
+  color: #333d4b;
   margin: 0;
   margin-top: 20px;
 }
@@ -300,7 +299,7 @@ header {
   font-weight: 900;
   font-size: 24px;
   line-height: 32px;
-  color: #83888F;
+  color: #83888f;
   position: absolute;
   left: 130px;
   bottom: 80px;
@@ -313,8 +312,8 @@ header {
   font-size: 18px;
   line-height: 25px;
   text-align: center;
-  color: #FEFCF7;
-  background: #66D2CF;
+  color: #fefcf7;
+  background: #66d2cf;
   border-radius: 6px;
   text-decoration: none;
   padding: 15px 31px;
